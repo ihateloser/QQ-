@@ -47,6 +47,7 @@ function fndown(event){
         stateTxt = document.getElementById('login2qq_state_txt');
 
     loginState.onclick = function(){
+        alert("hello");
         stateList.style.display='block';
     }
 
